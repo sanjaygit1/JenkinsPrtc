@@ -1,11 +1,13 @@
 package demo;
 
+import org.testng.annotations.Test;
+
 public class Test1 {
 
-	public static void main(String[] args) {
-
-
-		System.out.println("Gud Evng");
+	@Test
+	public void m1()
+	{
+		System.out.println("hello");
 
 	}
 
